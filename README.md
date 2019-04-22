@@ -1,2 +1,4 @@
 # ED-SALA
-Exercícios feitos sobre as aulas de Estrutura de Dados
+Aluno: Antonio Gabriel 
+Instituição: IFPB
+Exercícios feitos sobre as aulas de Estrutura de Dados.
