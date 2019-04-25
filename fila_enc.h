@@ -22,3 +22,5 @@ int enfileirar(Tfila *fila, int elemento );
 int desenfileirar(Tfila *fila );
 
 void imprimir(Tfila fila);
+
+void fila_alternada (Tfila fila_1, Tfila fila_2,Tfila* fila_3);
