@@ -113,7 +113,7 @@ int verificarOrdenacao(TlistaEnc l){
 }
 
 void Time (int T){
-	if ( T / 1000000 < 1) printf("%.1f micro segundos\n",T);
+	if ( T / 1000000 < 1) printf("%d micro segundos\n",T);
 
 	else if ( T / 1000000 < 60) printf("%d segundos\n",T / 1000000);
 
