@@ -22,7 +22,7 @@ void add (TlistaEnc* l, int elemento);
 
 void imprimir (TlistaEnc l);
 
-void mecherNo (TlistaEnc* l,int pos, int elemento);
+void mexerNo (TlistaEnc* l,int pos, int elemento);
 
 int elementoPosicao (TlistaEnc* l, int posicao);
 

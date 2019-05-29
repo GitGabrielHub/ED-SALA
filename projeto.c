@@ -72,8 +72,8 @@ void ordenar(TlistaEnc* l, int tamanho, int maiorElemento){
 void trocarElementos(TlistaEnc* l, int posicaoMenor, int posicaoMaior){
   
   int aux = elementoPosicao(l, posicaoMaior);
-  mecherNo(l,posicaoMaior,elementoPosicao(l,posicaoMenor));
-  mecherNo(l,posicaoMenor,aux);
+  mexerNo(l,posicaoMaior,elementoPosicao(l,posicaoMenor));
+  mexerNo(l,posicaoMenor,aux);
   //vet[posicaoMaior] = vet[posicaoMenor];
   //vet[posicaoMenor] = aux;
 
@@ -91,7 +91,7 @@ int elementoPosicao (TlistaEnc* l, int posicao){
 	return aux -> dado;
 }
 
-void mecherNo (TlistaEnc* l,int pos, int elemento){
+void mexerNo (TlistaEnc* l,int pos, int elemento){
 	no* aux;
 	aux = l -> lista;
 
