@@ -5,12 +5,9 @@ int main(void){
 
 	TlistaEnc listaEnc ;
 	inicializar(&listaEnc);
-	
-	//if (listaEnc.lista == NULL && listaEnc.size == 0) printf("Tudo certo\n");
-	//printf("%d\n", rand() % 100);
 
-	int i;
-	for (i = 100; i != 0; i--){
+	int i = 100; // Quantidade de números aleatórios no lista Encadeada
+	for (i; i != 0; i--){
 		add(&listaEnc, rand() % 100);
 	}
 
