@@ -34,4 +34,4 @@ void HeapSort(TlistaEnc* l, int tamanho);
 
 int verificarOrdenacao(TlistaEnc l);
 
-void Time(int T);
+void Time(double T);

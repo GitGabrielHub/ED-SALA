@@ -6,7 +6,7 @@ int main(void){
 	TlistaEnc listaEnc ;
 	inicializar(&listaEnc);
 
-	int i = 75000; // Quantidade de números aleatórios para por na lista lista Encadeada
+	int i = 1000; // Quantidade de números aleatórios para por na lista lista Encadeada
 	int x = i;
 	for (i; i != 0; i--){
 		add(&listaEnc, rand() % x);

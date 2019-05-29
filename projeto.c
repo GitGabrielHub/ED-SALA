@@ -112,15 +112,15 @@ int verificarOrdenacao(TlistaEnc l){
 	return 1;
 }
 
-void Time (int T){
-	if ( T / 1000000 < 1) printf("%d micro segundos\n",T);
+void Time (double T){
+	if ( T / 1000000 < 1) printf("%.1f micro segundos\n",T);
 
-	else if ( T / 1000000 < 60) printf("%d segundos\n",T / 1000000);
+	else if ( T / 1000000 < 60) printf("%.1f segundos\n",T / 1000000);
 
 	else{
 		int min,seg;
 		min = (T / 1000000) / 60;
-		seg =  (T / 1000000) % 60;
+		seg =  (int)(T / 1000000) % 60;
 
 		printf("%d minutos e %d segundos\n", min,seg);
 	}
