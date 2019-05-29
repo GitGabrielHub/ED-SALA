@@ -6,9 +6,10 @@ int main(void){
 	TlistaEnc listaEnc ;
 	inicializar(&listaEnc);
 
-	int i = 100; // Quantidade de números aleatórios no lista Encadeada
+	int i = 75000; // Quantidade de números aleatórios para por na lista lista Encadeada
+	int x = i;
 	for (i; i != 0; i--){
-		add(&listaEnc, rand() % 100);
+		add(&listaEnc, rand() % x);
 	}
 
 	imprimir(listaEnc);
@@ -16,13 +17,13 @@ int main(void){
 	Inicio = clock();
 	HeapSort(&listaEnc,listaEnc.size);
 	Fim = clock();
-	float Total = ((Fim - Inicio));
+	double Total = ((Fim - Inicio));
 
 	printf("-------------------------------\n");
 	printf("Após o HeapSort\n");
 	imprimir(listaEnc);
 
 	printf("A ordenacao foi: %s\n", verificarOrdenacao(listaEnc) ? "Sucesso":"Fracasso");
-	printf("Tempo de execucao = (%.2f ms)",Total);
+	Time(Total);
 	return 0;
 }

@@ -33,3 +33,5 @@ void ordenar(TlistaEnc* l, int tamanho, int maiorElemento);
 void HeapSort(TlistaEnc* l, int tamanho);
 
 int verificarOrdenacao(TlistaEnc l);
+
+void Time(int T);
