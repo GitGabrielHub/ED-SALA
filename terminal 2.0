@@ -1,0 +1,2 @@
+gcc main_heapsort.c heap_encadeado.c heap_sequencial.c GtkWidget.c -o base `pkg-config --cflags --libs gtk+-3.0`
+
