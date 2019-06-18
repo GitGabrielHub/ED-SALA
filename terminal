@@ -1,2 +1,0 @@
-gcc main_heapsort.c projeto.c -o base `pkg-config --cflags --libs gtk+-3.0`
-
