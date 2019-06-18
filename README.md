@@ -1,4 +1,4 @@
 # ED-SALA
-Aluno: Antonio Gabriel 
-Instituição: IFPB
-Exercícios feitos sobre as aulas de Estrutura de Dados.
+Aluno: Antonio Gabriel Araújo Silva
+Instituição: IFPB - Campina Grande, PB
+Projeto e exercícios feitos sobre as aulas de Estrutura de Dados.
